@@ -1,0 +1,1692 @@
+2023/09/19 16:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurijinpn...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurijinpn/notifikasi?_=1695114815568
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurmag/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurmag/notifikasi?_=1695114815565
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurisu/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurisu/notifikasi?_=1695114815569
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurperpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurperpk/notifikasi?_=1695114815570
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsuratkete...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsuratketerangan/notifikasi?_=1695114815573
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpelpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpelpk/notifikasi?_=1695114815571
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugmon...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugmonitoring/notifikasi?_=1695114815572
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surpermk/notifi...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surpermk/notifikasi?_=1695114815574
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surketnobeswa/n...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surketnobeswa/notifikasi?_=1695114815575
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surmag/notifika...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surmag/notifikasi?_=1695114815576
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surijinpn/notif...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surijinpn/notifikasi?_=1695114815577
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surijincuti/not...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surijincuti/notifikasi?_=1695114815579
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surisu/notifika...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surisu/notifikasi?_=1695114815578
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('suraktifcuti/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/suraktifcuti/notifikasi?_=1695114815580
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('suratketerangan...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/suratketerangan/notifikasi?_=1695114815581
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugpn/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugpn/notifikasi?_=1695114815586
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugpm/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugpm/notifikasi?_=1695114815585
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surtugmonitorin...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surtugmonitoring/notifikasi?_=1695114815584
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugns/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugns/notifikasi?_=1695114815587
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('subdetailsurpel...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/subdetailsurpelpk/notifikasi?_=1695114815583
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surperpk/notifi...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surperpk/notifikasi?_=1695114815582
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpermk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpermk/notifikasi?_=1695114815588
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurmag/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurmag/notifikasi?_=1695114815590
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurijincu...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurijincuti/notifikasi?_=1695114815591
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailaktifcuti...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailaktifcuti/notifikasi?_=1695114815592
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurisu/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurisu/notifikasi?_=1695114815594
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurijinpn...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurijinpn/notifikasi?_=1695114815593
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurketnob...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurketnobeswa/notifikasi?_=1695114815589
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurperpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurperpk/notifikasi?_=1695114815595
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpelpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpelpk/notifikasi?_=1695114815596
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugmon...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugmonitoring/notifikasi?_=1695114815597
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsuratkete...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsuratketerangan/notifikasi?_=1695114815598
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surpermk/notifi...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surpermk/notifikasi?_=1695115243955
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surmag/notifika...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surmag/notifikasi?_=1695115243957
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surijinpn/notif...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surijinpn/notifikasi?_=1695115243958
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surketnobeswa/n...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surketnobeswa/notifikasi?_=1695115243956
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('suraktifcuti/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/suraktifcuti/notifikasi?_=1695115243961
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surisu/notifika...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surisu/notifikasi?_=1695115243959
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surijincuti/not...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surijincuti/notifikasi?_=1695115243960
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('suratketerangan...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/suratketerangan/notifikasi?_=1695115243962
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surtugmonitorin...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surtugmonitoring/notifikasi?_=1695115243965
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('subdetailsurpel...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/subdetailsurpelpk/notifikasi?_=1695115243964
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugpm/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugpm/notifikasi?_=1695115243966
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugpn/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugpn/notifikasi?_=1695115243967
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surperpk/notifi...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surperpk/notifikasi?_=1695115243963
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpermk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpermk/notifikasi?_=1695115243969
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugns/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugns/notifikasi?_=1695115243968
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurmag/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurmag/notifikasi?_=1695115243971
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailaktifcuti...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailaktifcuti/notifikasi?_=1695115243973
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurketnob...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurketnobeswa/notifikasi?_=1695115243970
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurijincu...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurijincuti/notifikasi?_=1695115243972
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurijinpn...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurijinpn/notifikasi?_=1695115243974
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurisu/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurisu/notifikasi?_=1695115243975
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsuratkete...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsuratketerangan/notifikasi?_=1695115243979
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugmon...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugmonitoring/notifikasi?_=1695115243978
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpelpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpelpk/notifikasi?_=1695115243977
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:20:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurperpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurperpk/notifikasi?_=1695115243976
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surketnobeswa/n...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surketnobeswa/notifikasi?_=1695115243981
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surpermk/notifi...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surpermk/notifikasi?_=1695115243980
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surisu/notifika...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surisu/notifikasi?_=1695115243984
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surmag/notifika...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surmag/notifikasi?_=1695115243982
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surijinpn/notif...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surijinpn/notifikasi?_=1695115243983
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surijincuti/not...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surijincuti/notifikasi?_=1695115243985
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('suraktifcuti/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/suraktifcuti/notifikasi?_=1695115243986
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('suratketerangan...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/suratketerangan/notifikasi?_=1695115243987
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surperpk/notifi...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surperpk/notifikasi?_=1695115243988
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('subdetailsurpel...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/subdetailsurpelpk/notifikasi?_=1695115243989
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surtugmonitorin...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surtugmonitoring/notifikasi?_=1695115243990
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugpm/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugpm/notifikasi?_=1695115243991
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugpn/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugpn/notifikasi?_=1695115243992
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurketnob...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurketnobeswa/notifikasi?_=1695115243995
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugns/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugns/notifikasi?_=1695115243993
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpermk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpermk/notifikasi?_=1695115243994
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurmag/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurmag/notifikasi?_=1695115243996
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurijincu...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurijincuti/notifikasi?_=1695115243997
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailaktifcuti...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailaktifcuti/notifikasi?_=1695115243998
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurisu/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurisu/notifikasi?_=1695115244000
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurijinpn...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurijinpn/notifikasi?_=1695115243999
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurperpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurperpk/notifikasi?_=1695115244001
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugmon...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugmonitoring/notifikasi?_=1695115244003
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpelpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpelpk/notifikasi?_=1695115244002
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:21:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsuratkete...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsuratketerangan/notifikasi?_=1695115244004
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/permintaansurat?Surmag_page=8
+---
+2023/09/19 16:25:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surisu/notifika...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surisu/notifikasi?_=1695081600017
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surijinpn/notif...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surijinpn/notifikasi?_=1695081600016
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurtugpn/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurtugpn/notifikasi?_=1695081600025
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('subdetailsurpel...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/subdetailsurpelpk/notifikasi?_=1695081600022
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surtugmonitorin...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surtugmonitoring/notifikasi?_=1695081600023
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsuratkete...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsuratketerangan/notifikasi?_=1695081600037
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpermk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpermk/notifikasi?_=1695081600027
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurisu/no...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurisu/notifikasi?_=1695081600033
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurketnob...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurketnobeswa/notifikasi?_=1692576000000
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurpelpk/...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurpelpk/notifikasi?_=1695081600035
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('surpermk/notifi...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/surpermk/notifikasi?_=1695081600013
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---
+2023/09/19 16:25:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Harus Login' in /var/www/clients/client1/web56/web/protected/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/clients/client1/web56/web/protected/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(EWebUser), 'Anda tidak diot...')
+#2 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/clients/client1/web56/web/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/clients/client1/web56/web/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/clients/client1/web56/web/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(282): CController->run('notifikasi')
+#9 /var/www/clients/client1/web56/web/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('detailsurketnob...')
+#10 /var/www/clients/client1/web56/web/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/clients/client1/web56/web/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/detailsurketnobeswa/notifikasi?_=1695081600028
+HTTP_REFERER=http://sipensu.feb.unsoed.ac.id/index.php/surmag/sendisisurat?id=629
+---

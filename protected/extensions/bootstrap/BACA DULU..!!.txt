@@ -1,0 +1,3 @@
+Silahkan download yii booster dan letakan filenya pada direktori ini
+
+http://www.yiiframework.com/extension/yiibooster

@@ -1,0 +1,47 @@
+<div class="row">
+    <div class="col-md-12 col-lg-12">
+        <div class="card mb-12">
+            <div class="card-body">
+                <h4 class="card-title"> View Acc. Surat Tugas Pembicara/Narasumber/Lainnya #<?php echo $model->IDDETAILSURTUGNS; ?></h4>
+                <h2>
+                    Nomor :&nbsp;<?php echo $model->iDSURTUGNS->NOSURTUGNS;?>/<?php echo $model->iDSURTUGNS->iDJENISSURAT->iDJABATANSTRUKTURAL->IDJABATANSURAT; ?>/<?php echo $model->iDSURTUGNS->iDJENISSURAT->IDKLASIFIKASI;?>/<?php $tgl=date('Y');echo $tgl;?>
+                </h2>
+                <?php $this->widget('zii.widgets.CDetailView', array(
+                    'data'=>$model,
+                    'htmlOptions' => array('class'=> 'table table-bordered table-striped table-advance table-hover'),
+                    'attributes'=>array(
+
+                        'IDDETAILSURTUGNS',
+                        //'IDSURTUGNS',
+                        'iDSURTUGNS.iDJENISSURAT.NAMAJENISSURAT',
+                        'iDSURTUGNS.NOSURTUGNS',
+                        'iDSURTUGNS.NIP',
+                        'iDSURTUGNS.nIP.NAMA2',
+                        'iDSURTUGNS.iDPANGGOL.PANGKAT',
+                        'iDSURTUGNS.iDPANGGOL.GOL',
+                        'iDSURTUGNS.iDJABATANAKADEMIK.NAMAJABATANAKADEMIK',
+                        'iDSURTUGNS.ISISURTUGNS1',
+                        'iDSURTUGNS.ISISURTUGNS',
+                        'iDSURTUGNS.INSTANSINS',
+                        'iDSURTUGNS.ALAMATINSTANSINS',
+                        'iDSURTUGNS.TGLACARANS',
+                        'iDGROUPS.DIVISI',
+                        'iDSURTUGNS.KETERANGANNS',
+                        'iDSURTUGNS.TGLCETAKSURATNS',
+                        'iDSURTUGNS.ACCSURTUGNS',
+                        'TGLSUBMITDETAILSURTUGNS',
+                    ),
+
+                )); ?>
+
+                <?php echo CHtml::link('Manage ',array('detailsurtugns/admin'),array('class'=>'btn btn-info')); ?>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--update preview notifikasi setelah action view dilakukan-->
+<?php
+$IDDETAILSURTUGNS = Yii::app()->request->getParam('id', 0);
+$smod4el = Detailsurtugns::model()->updateByPk
+        ($IDDETAILSURTUGNS, array("PREVIEW" => 'Y'));
+?>    
